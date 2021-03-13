@@ -9,6 +9,10 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Build Website
+        env:
+          GATSBY_PORTFOLIO_GITHUB_TOKEN: ${{ secrets.GATSBY_PORTFOLIO_GITHUB_TOKEN }}
+          GATSBY_PORTFOLIO_FORMIK_ENDPOINT: ${{ secrets.GATSBY_PORTFOLIO_FORMIK_ENDPOINT }}
+          GATSBY_PORTFOLIO_RECAPTCHA_KEY: ${{ secrets.GATSBY_PORTFOLIO_RECAPTCHA_KEY }}
         run: |
           npm install
           npm run build
