@@ -27,5 +27,14 @@ module.exports = {
     email: 'email',
     phone: 'phone number',
   },
-  foundingDate: '2018',
+  foundingDate: '2021',
+  projects: [{
+    name: 'Sort-o-rithm',
+    link: 'https://algorithm-visualizer.gaskellsolutions.com',
+    description: 'A project to help study and understand the different sorting techniques!'
+  }, {
+    name: 'New Movers',
+    link: 'https://newmovers.gaskellsolutions.com',
+    description: 'A website to help advertise and market a company that provides mailing lists to churches.'
+  }]
 };
