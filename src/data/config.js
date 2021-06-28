@@ -4,7 +4,7 @@ module.exports = {
   author: 'Luke Gaskell',
   url: 'https://gaskellsolutions.com',
   legalName: 'Luke Gaskell',
-  defaultDescription: 'I\'m Luke and I\'m a full stack engineer!',
+  defaultDescription: 'My name is Luke and I\'m a Software Developer',
   socialLinks: {
     twitter: 'http://www.twitter.com/lukejgaskell',
     github: 'https://github.com/lukejgaskell',
